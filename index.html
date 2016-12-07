@@ -1,12 +1,130 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Барбершоп</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="menu-left">
+        <ul>
+          <li>
+            <a href="#">Информация</a>
+          </li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>
+            <a href="#">Прайс-лист</a>
+          </li>
+          <li>
+            <a href="#">Магазин</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-right">
+        <ul>
+          <li>
+            <a href="#">Вход</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="logo">
+      <img src="img/index.logo.svg" width="500" height="400" alt="Логотип Барбершоп">
+    </div>
+    <section class="advantages">
+      <ul>
+        <li>
+          <h2>Быстро</h2>
+          <p>Мы делаем свою работу быстро! два часа пролетят незаметно и вы — счастливый обладетель стильной стрижки-минутки!</p>
+        </li>
+        <li>
+          <h2>Круто</h2>
+          <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+        </li>
+        <li>
+          <h2>Дорого</h2>
+          <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определеный статус?</p>
+        </li>
+      </ul>
+  </section>
+    <div class="index-content">
+      <div class="index-content-left">
+        <h3>Новости</h3>
+          <ul>
+            <li>
+              <p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки!</p>
+              <time datetime="2016-01-11">11 января</time>
+            </li>
+            <li>
+              <p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+              <time datetime="2016-01-18">18 января</time>
+            </li>
+          </ul>
+          <a class="btn">Все новости</a>
+        </div>
+      </div>
+      <div class="index-content-right">
+        <h3>Фотогалерея<h3>
+          <figure class="gallery-photos">
+            <img src="img/gallery-image.png" width="300" height="200" alt="">
+          </figure>
+          <button class="gallery-prev">Вперед</button>
+          <button class="gallery-next">Назад</button>
+      </div>
+    <div class="index-content">
+      <div class="index-content-left">
+        <h3>Контактная информация</h3>
+          <p>Барбершоп «Бородинский»<br>
+            Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8</br>
+            Телефон: +7 (495) 666-02-66
+          </p>
+          <p>Время работы:<br>
+            Пн — пт: с 10:00 до 22:00</br>
+            Сб — вс: с 10:00 до 19:00
+          </p>
+      <a class="btn-left" href="#">Как проехать</a>
+      <a class="btn-right" href="#">Обратная связь</a>
+    </div>
+  </div>
+    <div class="index-content-right">
+      <h3>Записаться</h3>
+      <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения </p>
+        <form class="enroll-form" action="#" method="post">
+        <input type="text" name="data" placeholder="Дата">
+        <input type="text" name="time" placeholder="Время">
+        <input type="text" name="name" placeholder="Ваше имя">
+        <input type="text" name="phone" placeholder="Телефон">
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
+</main>
+<footer>
+<div class="container">
+  <section class="footer-address">
+    <p>Барбершоп «бородинский»<br>
+      Адрес: г. Санкт-Петербург, ул. б. конюшенная, д. 19/8</br>
+      <a href="address-link">Как нас найти?</a><br>
+    ТЕЛЕФОН: +7 (495) 666-02-66</p>
+  </section>
+  <section class="footer-social">
+    <p>Давайте дружить!</p>
+    <a class="social-btn social-vk" href="#">Вконтакте</a>
+    <a class="social-btn social-fb" href="#">Фейсбук</a>
+    <a class="social-btn social-ig" href="#">Инстаграмм</a>
+  </section>
+  <section class="footer-developer">
+    <p>Разработано</p>
+    <a href="#">HTML.ACADEMY</a>
+  </section>
+</div>
+</footer>
   </body>
 </html>

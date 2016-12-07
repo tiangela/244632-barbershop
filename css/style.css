@@ -1,0 +1,13 @@
+body {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+h1, h2 {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 42px;
+}
