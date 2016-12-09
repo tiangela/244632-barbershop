@@ -11,3 +11,136 @@ h1, h2 {
   font-weight: bold;
   line-height: 42px;
 }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: #eaf5ee;
+}
+
+.menu-left {
+  float: left;
+  width: 780px;
+  background-color: #a8b2ae;
+}
+
+.menu-right {
+  float: right;
+  width: 140px;
+  background-color: #a8b2ae;
+}
+
+.header-menu, .all-advantages, footer {
+  background-color: #beebce;
+}
+
+.logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #5e7767;
+  margin-bottom: 25px;
+}
+
+.all-advantages {
+  margin-bottom: 80px;
+}
+
+.advantage {
+  background-color: #a8b2ae;
+  width: 300px;
+  margin-right: 20px;
+  float: left;
+}
+
+.advantage:last-child {
+  margin-right: 0px;
+}
+
+.index-content {
+  background-color: #99ffcc;
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  background-color: #a8b2ae;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  background-color: #a8b2ae;
+}
+
+footer {
+  margin-top: 65px;
+  padding-top: 65px;
+  padding-bottom: 45px;
+}
+
+.footer-address {
+  float: left;
+  width: 320px;
+  background-color: #a8b2ae;
+  margin-right: 60px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  background-color: #a8b2ae;
+}
+
+.footer-developer {
+  float: right;
+  width: 160px;
+  background-color: #a8b2ae;
+}
+
+.filter {
+  float: left;
+  width: 170px;
+  margin-right: px;
+}
+
+.all-item {
+width: 750px;
+float: right;
+}
+
+.item {
+  display: inline-block;
+  vertical-align: top;
+  width: 218px;
+  margin-right: 0px;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+.paginator {
+  display: inline-block;
+  width: 218px;
+}
+
+.image-content {
+  float: left;
+  width: 460px;
+}
+
+.item-info {
+  float: right;
+  width: 400px;
+}
